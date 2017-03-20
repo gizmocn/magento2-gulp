@@ -24,6 +24,7 @@ Grunt: 11.2s
  * 3.1. Compilation of all themes: gulp
  * 3.2. Compilation of certain theme: gulp less --luma
  * 3.3. Watcher of certain theme: gulp watch --luma
+ * 3.3.1 Watcher with sourcemap: gulp watch --luma --map
  * 3.4. Compilation of certain theme with minification (+~2.5s): gulp less --luma --min
  * 3.5. Compilation of certain theme with sourcemap(+~1.5s), can't be used with minification: gulp less --luma --map
  * 3.6. Compilation with live reload: gulp less --luma --live
